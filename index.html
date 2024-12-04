@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Logo -->
+    <link rel="icon" href="logo.png">
+    <title>Yummy</title>
+</head>
+
+<body>
+    <div class="loading-overlay">
+        <span class="loader"></span>
+    </div>
+    <div class="sideBar-ul p-4 h-100 d-flex flex-column justify-content-between align-items-start">
+        <ul>
+            <li id="search" class="py-3">Search</li>
+            <li id="categories" class="py-3">Categories</li>
+            <li id="area" class="py-3">Area</li>
+            <li id="ingredients" class="py-3">Ingredients</li>
+            <li id="contact" class="py-3">Contact Us</li>
+        </ul>
+        <div class="about text-white">
+            <div class="icons mb-3">
+                <i class="fab fa-facebook-f me-3"></i>
+                <i class="fab fa-twitter me-3"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <p>Copyright Â© 2024 All Rights Reserved.</p>
+        </div>
+        <div
+            class="sideBar-icons p-2 py-4 h-100 d-flex flex-column justify-content-between align-items-center position-absolute top-0 end-0">
+            <a href="#" id="logo">
+                <img src="logo.png" alt="Logo">
+            </a> <i id="bars" class="fas fa-bars fa-2x"></i>
+            <i id="close" class="fas fa-close fa-2x d-none"></i>
+            <div class="share d-flex flex-column gap-2">
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Start Content -->
+    <div class="container my-5">
+        <div id="rowData" class="row g-4"></div>
+    </div>
+    <script src="./js/jguery-3.7.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
